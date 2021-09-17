@@ -1,0 +1,30 @@
+﻿
+<button class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
+    Yeni haqqimizda yazi girisi
+</button>
+<div class="modal" id="Modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Haqqimizda metn girisi</h2>
+            </div>
+            <form method="post" action="/About/AddAbout">
+                <div class="modal-body">
+                    <label>Haqqimda Metn 1</label>
+                    <input type="text" name="AboutDetails1" class="form-control" />
+                    <br />
+                    <label>Haqqimda Metn 2</label>
+                    <input type="text" name="AboutDetails2" class="form-control" />
+                    <br />
+                    <label>Haqqimda Sekil 1</label>
+                    <input type="text" name="AboutImage1" class="form-control" />
+                    <br />
+                    <label>Haqqimda Sekil 2</label>
+                    <input type="text" name="AboutImage2" class="form-control" />
+                    <br />
+                    <button class="btn btn-info">Yadda saxla</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

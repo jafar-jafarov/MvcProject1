@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace MvcProjectCamp.Controllers
 {
@@ -15,6 +16,7 @@ namespace MvcProjectCamp.Controllers
     {
         // GET: AdminCategory
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
+        [Authorize]
         public ActionResult Index()
         {
             var categoryvalues = cm.GetList();

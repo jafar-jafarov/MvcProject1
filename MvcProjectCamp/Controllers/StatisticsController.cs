@@ -23,9 +23,11 @@ namespace MvcProjectCamp.Controllers
             var value3 = context.Writers.Where(x => x.WriterName.Contains("a") || x.WriterName.Contains("A")).Count();
             ViewBag.value3 = value3;
 
-            var value4 = context.Categories.Where(a => a.CategoryId == context.Headings.GroupBy(x => x.CategoryId).OrderByDescending(x => x.Count())
-               .Select(x =>x.Key).FirstOrDefault()).Select(x => x.CategoryName).FirstOrDefault();
+            var value4 = context.Headings.Max(x => x.Category.CategoryName);
             ViewBag.value4 = value4;
+           // var value4 = context.Categories.Where(a => a.CategoryId == context.Headings.GroupBy(x => x.CategoryId).OrderByDescending(x => x.Count())
+            //   .Select(x =>x.Key).FirstOrDefault()).Select(x => x.CategoryName).FirstOrDefault();
+           // ViewBag.value4 = value4;
 
             //   var value4=context.Headings.Where(x=>x.cate)
             var value5 = context.Categories.Where(n => n.CategoryStatus == true).Count() - context.Categories.Where(n => n.CategoryStatus == false).Count();

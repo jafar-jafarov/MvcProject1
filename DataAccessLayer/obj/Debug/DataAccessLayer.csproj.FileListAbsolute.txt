@@ -17,3 +17,11 @@ C:\Users\Casper Cefer\source\repos\MvcProjectCamp\DataAccessLayer\obj\Debug\Data
 C:\Users\Casper Cefer\source\repos\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
 C:\Users\Casper Cefer\source\repos\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_edit.resources
 C:\Users\Casper Cefer\source\repos\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writertitle_add.resources
+C:\Users\Casper Cefer\source\repos\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_imagesizechange.resources
+C:\Users\Casper Cefer\source\repos\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writerstatus.resources
+C:\Users\Casper Cefer\source\repos\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contentstatusadd.resources
+C:\Users\Casper Cefer\source\repos\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_headingstatusadd.resources
+C:\Users\Casper Cefer\source\repos\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_message_class.resources
+C:\Users\Casper Cefer\source\repos\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contactadddate.resources
+C:\Users\Casper Cefer\source\repos\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_imagefile.resources
+C:\Users\Casper Cefer\source\repos\MvcProjectCamp\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_admin_table.resources

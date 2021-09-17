@@ -30,10 +30,12 @@ namespace BusinessLayer.Concrete
 
         public void HeadingDelete(Heading heading)
         {
-            _headingdal.Delete(heading);
+          
+            
+            _headingdal.Update(heading);
         }
 
-        public void HeadingInsert(Heading heading)
+        public void HeadingAdd(Heading heading)
         {
             _headingdal.Insert(heading);
         }
@@ -42,5 +44,7 @@ namespace BusinessLayer.Concrete
         {
             _headingdal.Update(heading);
         }
+
+       
     }
 }

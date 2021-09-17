@@ -13,6 +13,6 @@ namespace BusinessLayer.Abstract
         Heading GetById(int id);
         void HeadingUpdate(Heading heading);
         void HeadingDelete(Heading heading);
-        void HeadingInsert(Heading heading);
+        void HeadingAdd(Heading heading);
     }
 }
